@@ -1,15 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300;400;500;600&display=swap");
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #3185fc,
-    #4dffb5
-  );
-  --vp-font-family-base: "Arvo", serif;
-  --vp-font-family-mono: "Fira Code", monospace;
-}
-
 /**
  * Colors Base
  *
@@ -458,4 +447,18 @@
   --vp-local-search-result-selected-border: var(--vp-c-brand);
   --vp-local-search-highlight-bg: var(--vp-c-green-lighter);
   --vp-local-search-highlight-text: var(--vp-c-black);
+}
+
+/**
+ * Frank added extra
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #3185fc,
+    #4dffb5
+  );
+  --vp-font-family-base: "Arvo", serif;
+  --vp-font-family-mono: "Fira Code", monospace;
 }

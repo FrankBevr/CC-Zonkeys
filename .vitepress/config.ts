@@ -6,7 +6,7 @@ export default defineConfig({
   description: "A Minimal Setup for CC Zonkeys",
   themeConfig: {
     siteTitle: "CC - Zonkeys",
-    logo: { light: "/donkey.png", dark: "/doney-green.png", alt: "" }, // https://vitepress.dev/reference/default-theme-config
+    logo: { light: "/donkey-icon.svg", dark: "/donkey-icon-dark.svg" },
     nav: [
       { text: "Home", link: "/" },
       { text: "Protocol", link: "/Protocol-27-07-23.md" },
@@ -14,7 +14,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Protocols",
+        text: "Overview",
         items: [
           { text: "Protocol", link: "/Protocol-27-07-23.md" },
           { text: "Markdown Examples", link: "/markdown-examples.md" },
@@ -24,6 +24,12 @@ export default defineConfig({
 
     socialLinks: [
       { icon: "github", link: "https://github.com/frankbevr/CC-Zonkeys" },
+    ],
+    head: [
+      [
+        "link",
+        { rel: "icon", type: "image/svg+xml", href: "/donkey-icon.svg" },
+      ],
     ],
   },
 });

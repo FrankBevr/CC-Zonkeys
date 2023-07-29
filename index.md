@@ -10,7 +10,7 @@ hero:
   name: "CC Zonkeys"
   text: "Cross Chain - Zonkeys"
   actions:
-    - theme: brand
+    - theme: alt
       text: See Protocols
       link: /Protocol-27-07-23.md
 ---
