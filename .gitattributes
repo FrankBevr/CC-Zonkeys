@@ -1,2 +1,11 @@
+# Ignore all files except Markdown and TypeScript
+* linguist-vendored
+
+# Treat all files with .md extension as Markdown
 *.md linguist-language=Markdown
+
+# Include TypeScript files
 *.ts linguist-language=TypeScript
+
+# Exclude CSS files
+*.css linguist-vendored
