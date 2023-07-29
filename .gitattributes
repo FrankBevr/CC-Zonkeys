@@ -1,2 +1,2 @@
-* linguist-documentation=true
+*.md linguist-language=Markdown
 *.ts linguist-language=TypeScript
